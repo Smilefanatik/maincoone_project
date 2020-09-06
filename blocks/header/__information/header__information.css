@@ -1,0 +1,16 @@
+.header__information {
+    padding-left: 8rem;
+}
+
+@media screen and (max-width: 980px) {
+    .header__information {
+        padding-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .header__information {
+        padding-left: 0;
+        padding-bottom: 200px;
+    }
+}

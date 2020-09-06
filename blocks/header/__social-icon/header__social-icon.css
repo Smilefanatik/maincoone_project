@@ -1,0 +1,8 @@
+.header__social-icon {
+  margin: 0.5rem;
+  transition: opacity linear 0.5s;
+}
+
+.header__social-icon:hover {
+  opacity: .6;
+}

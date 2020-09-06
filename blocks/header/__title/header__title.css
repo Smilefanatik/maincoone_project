@@ -1,0 +1,26 @@
+    .header__title {
+        width: 340px;
+        margin: 18px 0 0;
+        padding: 0;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.25rem;
+        line-height: 1.15;
+        color: #FFFFFF;
+    }
+    
+    @media screen and (max-width: 470px) {
+        .header__title {
+            width: 234px;
+            margin: auto;
+            padding: 0;
+            text-align: center;
+            font-family: 'Yeseva One';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2.25rem;
+            line-height: 1.16;
+            color: #FFFFFF;
+        }
+    }

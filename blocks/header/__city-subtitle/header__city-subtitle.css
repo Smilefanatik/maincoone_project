@@ -1,0 +1,17 @@
+.header__city-subtitle {
+    width: 120px;
+    margin: 80px 0 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #A07B50
+}
+
+@media screen and (max-width: 470px) {
+    .header__city-subtitle {
+        margin: 32px auto 16px;
+        text-align: center;
+    }
+}

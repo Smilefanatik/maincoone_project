@@ -1,0 +1,68 @@
+.header__background-image {
+    background-image: url(../../../images/cat-face.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1000px;
+    height: 665px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1180px) {
+    .header__background-image {
+        background-image: url(../../../images/main-cat-tablet@1x.png);
+        background-size: contain;
+        width: 685px;
+        height: 685px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .header__background-image {
+        background-image: url(../../../images/main-cat-tablet@1x.png);
+        background-size: contain;
+        width: 420px;
+        height: 420px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header__background-image {
+        background-image: url(../../../images/main-cat-mobile@1x.png);
+        background-size: contain;
+        width: 300px;
+        height: 240px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .header__background-image {
+        background-image: url(../../../images/main-cat-mobile@1x.png);
+        background-size: contain;
+        width: 230px;
+        height: 185px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .header__background-image {
+        background-image: url(../../../images/main-cat-mobile@1x.png);
+        background-size: contain;
+        width: 277px;
+        height: 221px;
+    }
+}

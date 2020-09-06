@@ -1,0 +1,34 @@
+.header__button {
+    width: 200px;
+    height: 50px;
+    margin: 20px 0 0;
+    border: 0.5px solid #A07B50;
+    background-color: transparent;
+    color: #FFFFFF;
+    border-radius: 10px;
+    transition: opacity linear 0.5s;
+}
+
+.header__button:hover {
+    opacity: .5;
+}
+
+@media screen and (max-width: 470px) {
+    .header__button {
+        padding: 0;
+        display: block;
+        width: 200px;
+        height: 50px;
+        margin: 32px auto;
+        background-color: transparent;
+        color: #FFFFFF;
+        border-radius: 10px;
+        transition: opacity linear 0.5s;
+    }
+    .header__button:hover {
+        opacity: .5;
+    }
+}
+
+
+}

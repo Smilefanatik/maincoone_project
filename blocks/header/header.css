@@ -1,0 +1,14 @@
+@import url(./__logo/header__logo.css);
+@import url(./__information/header__information.css);
+@import url(./__title/header__title.css);
+@import url(./__subtitle/header__subtitle.css);
+@import url(./__city-subtitle/header__city-subtitle.css);
+@import url(./__button/header__button.css);
+@import url(./__social-icon/header__social-icon.css);
+@import url(./__social-links/header__social-links.css);
+@import url(./__background-image/header__background-image.css);
+.header {
+    background-color: #1F1C1D;
+    position: relative;
+    width: 100%;
+}

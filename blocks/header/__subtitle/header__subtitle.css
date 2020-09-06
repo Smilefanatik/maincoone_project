@@ -1,0 +1,23 @@
+                .header__subtitle {
+                width: 280px;
+                margin: 16px 0 0;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1rem;
+                line-height: 1.5;
+                color: #A07B50
+            }
+            
+            @media screen and (max-width: 470px) {
+                .header__subtitle {
+                    width: 230px;
+                    margin: 16px auto;
+                    text-align: center;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 1rem;
+                    line-height: 1.5;
+                    color: #A07B50
+                }
