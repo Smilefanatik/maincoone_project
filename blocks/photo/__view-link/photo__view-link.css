@@ -1,0 +1,24 @@
+.photo__view-link {
+    width: 272px;
+    margin: 30px auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .photo__view-link {
+    width: 272px;
+    margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .photo__view-link {
+    width: 250px;
+    margin: 30 5px auto;
+    padding: 10;
+  }
+}

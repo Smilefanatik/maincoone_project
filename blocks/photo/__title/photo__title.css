@@ -1,0 +1,23 @@
+.photo__title {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.25rem;
+    line-height: 1.16rem;
+    color: white;
+    text-align: center;
+    margin-top: 220px;
+}
+
+@media screen and (max-width: 900px) {
+  .photo__title {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .photo__title {
+    font-size: 1.75rem;
+    line-height: 1.14rem;
+  }
+}

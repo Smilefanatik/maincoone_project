@@ -1,0 +1,19 @@
+.photo__subtitle {
+    width: 520px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.625rem;
+    color: #A07B50;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .photo__subtitle {
+    width: 280px;
+    font-size: 0.775rem;
+    line-height: 1.228rem;
+  }
+}

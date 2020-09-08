@@ -2,3 +2,7 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/__grid-item/_type/photo__grid-item_type_cat-up.css);
+@import url(../blocks/photo/__grid-item/_type/photo__grid-item_type_cat-down.css);
+@import url(../blocks/photo/__grid-item/_type/photo__grid-item_type_cat-big.css);

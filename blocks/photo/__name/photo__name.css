@@ -1,0 +1,27 @@
+.photo__name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.166rem;
+  color: rgba(255, 255, 255, 0.2);
+  transition: opacity linear 0.5s;
+  opacity: 1;
+}
+
+.photo__name:hover {
+  opacity: 0.2;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.photo__name:last-child {
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 350px) {
+  .photo__name {
+    font-size: 1rem;
+    line-height: 1.15rem;
+  }
+}

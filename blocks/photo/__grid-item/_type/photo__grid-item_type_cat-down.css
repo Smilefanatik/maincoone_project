@@ -1,0 +1,18 @@
+.photo__grid-item_type_cat-down {
+  grid-area: cat-down;
+  width: 520px;
+  height: 241px;
+}
+
+@media screen and (max-width: 1120px) {
+  .photo__grid-item_type_cat-down {
+    width: 320px;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .photo__grid-item_type_cat-down {
+    display: none;
+  }
+}

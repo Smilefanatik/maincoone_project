@@ -1,0 +1,18 @@
+.photo__grid-item_type_cat-up {
+  grid-area: cat-up;
+  width: 520px;
+  height: 214px;
+}
+
+@media screen and (max-width: 1120px) {
+  .photo__grid-item_type_cat-up {
+    width: 320px;
+    height: 270px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .photo__grid-item_type_cat-up {
+    display: none;
+  }
+}

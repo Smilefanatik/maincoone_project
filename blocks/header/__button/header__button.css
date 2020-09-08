@@ -1,16 +1,22 @@
 .header__button {
     width: 200px;
     height: 50px;
-    margin: 20px 0 0;
+    margin: 30px auto 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1rem;
     border: 0.5px solid #A07B50;
     background-color: transparent;
     color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 3px;
     transition: opacity linear 0.5s;
 }
 
 .header__button:hover {
     opacity: .5;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 470px) {
@@ -20,6 +26,11 @@
         width: 200px;
         height: 50px;
         margin: 32px auto;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.8rem;
+        line-height: 1rem;
         background-color: transparent;
         color: #FFFFFF;
         border-radius: 10px;

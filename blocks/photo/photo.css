@@ -1,0 +1,12 @@
+@import url(./__title/photo__title.css);
+@import url(./__subtitle/photo__subtitle.css);
+@import url(./__view-link/photo__view-link.css);
+@import url(./__name/photo__name.css);
+@import url(./__grid/photo__grid.css);
+@import url(./__grid-item/photo__grid-item.css);
+@import url(./__button/photo__button.css);
+.photo {
+    background-color: #1F1C1D;
+    position: relative;
+    width: 100%;
+}
