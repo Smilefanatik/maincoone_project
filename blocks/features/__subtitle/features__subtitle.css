@@ -1,0 +1,36 @@
+.features__subtitle {
+  width: 740px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.625rem;
+  color: #a07b50;
+  text-align: center;
+  margin: 30px auto;
+}
+
+@media screen and (max-width: 900px) {
+  .features__subtitle {
+    width: 450px;
+    font-size: 1.1rem;
+    line-height: 1.625rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features__subtitle {
+    width: 300px;
+    font-size: 0.875rem;
+    line-height: 1.425rem;
+    margin: 15px auto;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .features__subtitle {
+    width: 280px;
+    font-size: 0.775rem;
+    line-height: 1.225rem;
+  }
+}

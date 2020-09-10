@@ -1,0 +1,62 @@
+.features__list_type_weight {
+  width: 155px;
+  list-style: none;
+  position: absolute;
+  color: #ffffff;
+  left: 310px;
+  bottom: -160px;
+  text-align: left;
+}
+
+.features__list_type_weight:after {
+  content: url(../../../../images/round.png);
+  position: absolute;
+  right: 180px;
+  bottom: 13px;
+}
+
+@media screen and (max-width: 1050px) {
+  .features__list_type_weight {
+    width: 110px;
+    left: 305px;
+    bottom: -190px;
+  }
+  .features__list_type_weight:after {
+    right: 133px;
+    bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .features__list_type_weight {
+    width: 136px;
+    left: 195px;
+    top: 90px;
+  }
+  .features__list_type_weight:after {
+    content: url(../../../../images/round-mini.png);
+    left: -24px;
+    bottom: 78px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .features__list_type_weight {
+    width: 300px;
+    left: 60px;
+    top: 130px;
+  }
+  .features__list_type_weight:after {
+    content: url(../../../../images/round-mini.png);
+    left: -20px;
+    top: 1px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features__list_type_weight {
+    height: 0px;
+    width: 200px;
+    left: 40px;
+    top: 180px;
+  }

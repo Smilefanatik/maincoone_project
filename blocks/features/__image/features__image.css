@@ -1,0 +1,35 @@
+.features__image {
+  position: absolute;
+  margin: auto auto 40px;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .features__image {
+    width: 420px;
+    height: 440px;
+    margin: auto;
+    right: 0;
+    left: 20px;
+    top: 0;
+    bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .features__image {
+    width: 500px;
+    height: 520px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features__image {
+    width: 280px;
+    height: 300px;
+    margin: auto;
+  }
+}

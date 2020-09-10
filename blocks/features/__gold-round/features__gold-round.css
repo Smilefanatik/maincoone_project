@@ -1,0 +1,33 @@
+.features__gold-round {
+  height: 630px;
+  width: 630px;
+  border: 0.1rem solid #A07B50;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .features__gold-round {
+    height: 420px;
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .features__gold-round {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .features__gold-round {
+    height: 280px;
+    width: 280px;
+  }
+}

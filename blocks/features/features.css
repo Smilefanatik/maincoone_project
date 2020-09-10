@@ -1,0 +1,15 @@
+@import url(./__title/features__title.css);
+@import url(./__subtitle/features__subtitle.css);
+@import url(./__inform/features__inform.css);
+@import url(./__graphics/features__graphics.css);
+@import url(./__gold-round/features__gold-round.css);
+@import url(./__black-round/features__black-round.css);
+@import url(./__image/features__image.css);
+@import url(./__list/features__list.css);
+@import url(./__list-item/features__list-item.css);
+
+
+.features {
+  background-color: #1F1C1D;
+  width: 100%;
+}

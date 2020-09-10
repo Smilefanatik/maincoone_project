@@ -1,0 +1,14 @@
+.features__list-item {
+  position: absolute;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.312rem;
+}
+
+@media screen and (max-width: 500px) {
+  .features__list-item {
+    line-height: 1.212rem;
+  }
+}

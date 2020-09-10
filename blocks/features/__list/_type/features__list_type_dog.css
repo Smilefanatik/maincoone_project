@@ -1,0 +1,79 @@
+.features__list_type_dog {
+  width: 200px;
+  list-style: none;
+  position: absolute;
+  color: #FFFFFF;
+  left: 335px;
+  bottom: 60px;
+  text-align: left;
+}
+
+ .features__list_type_dog:after {
+  content: url(../../../../images/round.png);
+  position: absolute;
+  right: 220px;
+  bottom: 17px;
+ }
+
+ @media screen and (max-width: 1050px) {
+  .features__list_type_dog {
+    width: 130px;
+    left: 330px;
+    bottom: 10px;
+  }
+
+  .features__list_type_dog:after {
+    content: url(../../../../images/round.png);
+    position: absolute;
+    right: 143px;
+    bottom: 55px;
+}
+
+@media screen and (max-width: 900px) {
+  .features__list_type_dog {
+    width: 132px;
+    left: 220px;
+    top: -50px;
+  }
+  .features__list_type_dog:after {
+    content: url(../../../../images/round-mini.png);
+    left: -17px;
+    bottom: 20px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .features__list_type_dog {
+    width: 330px;
+    left: 60px;
+    top: 70px;
+  }
+  .features__list_type_dog:after {
+    content: url(../../../../images/round-mini.png);
+    left: -20px;
+    top: 1px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .features__list_type_dog {
+    width: 330px;
+    left: 60px;
+    top: 70px;
+  }
+  .features__list_type_dog:after {
+    content: url(../../../../images/round-mini.png);
+    left: -20px;
+    top: 1px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features__list_type_dog {
+    height: 0;
+    width: 200px;
+    left: 40px;
+    top: 70px;
+  }
+}

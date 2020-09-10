@@ -1,0 +1,64 @@
+.features__list_type_child {
+  width: 250px;
+  list-style: none;
+  position: absolute;
+  color: #ffffff;
+  left: -565px;
+  top: -180px;
+  text-align: right;
+}
+
+.features__list_type_child:after {
+  content: url(../../../../images/round.png);
+  position: absolute;
+  left: 280px;
+  bottom: 14px;
+}
+
+@media screen and (max-width: 1050px) {
+  .features__list_type_child {
+    width: 166px;
+    left: -475px;
+    top: -180px;
+  }
+  .features__list_type_child:after {
+    left: 190px;
+    bottom: 36px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .features__list_type_child {
+    width: 166px;
+    left: -375px;
+    top: -125px;
+  }
+  .features__list_type_child:after {
+    content: url(../../../../images/round-mini.png);
+    left: 184px;
+    bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .features__list_type_child {
+    width: 350px;
+    text-align: left;
+    left: 60px;
+    top: 40px;
+  }
+  .features__list_type_child:after {
+    content: url(../../../../images/round-mini.png);
+    left: -20px;
+    top: 1px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features__list_type_child {
+    width: 250px;
+    text-align: left;
+    left: 40px;
+    top: 10px;
+  }
+}

@@ -1,0 +1,33 @@
+.features__title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 1.16rem;
+  color: white;
+  text-align: center;
+  margin-top: 85px;
+}
+
+@media screen and (max-width: 900px) {
+  .features__title {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features__title {
+    font-size: 1.75rem;
+    line-height: 1.14rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .features__title {
+    width: 190px;
+    margin: auto;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    margin-top: 40px;
+  }
+}

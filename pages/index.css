@@ -6,3 +6,9 @@
 @import url(../blocks/photo/__grid-item/_type/photo__grid-item_type_cat-up.css);
 @import url(../blocks/photo/__grid-item/_type/photo__grid-item_type_cat-down.css);
 @import url(../blocks/photo/__grid-item/_type/photo__grid-item_type_cat-big.css);
+@import url(../blocks/features/features.css);
+@import url(../blocks/features/__list/_type/features__list_type_child.css);
+@import url(../blocks/features/__list/_type/features__list_type_lynx.css);
+@import url(../blocks/features/__list/_type/features__list_type_dog.css);
+@import url(../blocks/features/__list/_type/features__list_type_weight.css);
+

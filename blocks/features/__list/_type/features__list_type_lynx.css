@@ -1,0 +1,82 @@
+.features__list_type_lynx {
+  width: 200px;
+  list-style: none;
+  position: absolute;
+  color: #FFFFFF;
+  left: -530px;
+  bottom: -130px;
+  text-align: right;
+}
+
+ .features__list_type_lynx:after {
+  content: url(../../../../images/round.png);
+  position: absolute;
+  left: 229px;
+  bottom: 14px;
+ }
+
+ @media screen and (max-width: 1050px) {
+  .features__list_type_lynx {
+    width: 138px;
+    left: -460px;
+    bottom: -160px;
+  }
+  .features__list_type_lynx:after {
+    left: 162px;
+    bottom: 37px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .features__list_type_lynx {
+    width: 138px;
+    left: -352px;
+    top: 65px;
+  }
+  .features__list_type_lynx:after {
+    content: url(../../../../images/round-mini.png);
+    left: 155px;
+    bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .features__list_type_lynx {
+    width: 0px;
+    left: 0px;
+    top: 0px;
+  }
+  .features__list_type_lynx:after {
+    content: url(../../../../images/round-mini.png);
+    left: 0px;
+    bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .features__list_type_lynx {
+    text-align: left;
+    width: 330px;
+    left: 60px;
+    top: 100px;
+  }
+  .features__list_type_lynx:after {
+    content: url(../../../../images/round-mini.png);
+    left: -20px;
+    top: 1px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features__list_type_lynx {
+    height: 0px;
+    width: 200px;
+    left: 40px;
+    top: 125px;
+  }
+  .features__list_type_lynx:after {
+    content: url(../../../../images/round-mini.png);
+    left: -20px;
+    top: 1px;
+  }
+}
