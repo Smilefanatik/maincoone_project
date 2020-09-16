@@ -1,0 +1,11 @@
+.info-us__img{
+  margin-top: 60px;
+}
+
+
+@media screen and (max-width: 460px) {
+  .info-us__img{
+    margin-top: 20px;
+    
+  }
+}

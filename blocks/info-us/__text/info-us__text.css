@@ -1,0 +1,12 @@
+.info-us__text {
+  width: 230px;
+  margin: 20px auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  text-align: center;
+  color: #ffffff;
+}
+

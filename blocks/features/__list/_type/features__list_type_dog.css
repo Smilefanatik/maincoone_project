@@ -58,7 +58,8 @@
 
 @media screen and (max-width: 700px) {
   .features__list_type_dog {
-    width: 330px;
+    margin-top: 0px;
+    height: 50px;
     left: 60px;
     top: 70px;
   }

@@ -1,0 +1,38 @@
+.info-us__rectangle {
+  min-width: 320px;
+  min-height: 270px;
+  margin: 20px 20px;
+  display: block;
+  text-align: center;
+  transition: opacity linear 0.5s;
+}
+
+.info-us__rectangle:hover {
+  opacity: .5;
+  cursor: pointer;
+  background-color: #A07B50;
+}
+
+@media screen and (max-width: 1100px) {
+  .info-us__rectangle {
+    min-width: 420px;
+    min-height: 320px;
+    margin: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .info-us__rectangle {
+    min-width: 320px;
+    min-height: 270px;
+    margin: 17px 17px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .info-us__rectangle {
+    min-width: 260px;
+    min-height: 218px;
+    margin: 15px 15px;
+  }
+}

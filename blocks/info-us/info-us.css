@@ -1,0 +1,14 @@
+@import url(./__title/info-us__title.css);
+@import url(./__subtitle/info-us__subtitle.css);
+@import url(./__container/info-us__container.css);
+@import url(./__item/info-us__item.css);
+@import url(./__rectangle/info-us__rectangle.css);
+@import url(./__img/info-us__img.css);
+@import url(./__text/info-us__text.css);
+
+.info-us {
+  background-color: #000000;
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
